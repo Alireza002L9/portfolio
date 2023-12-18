@@ -1,0 +1,61 @@
+.webgl {
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+body, html {
+    color: white;
+    background-color: #1A0841;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    position: relative;
+    height: 100vh;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+img {
+    height: 18rem;
+}
+
+section:nth-child(1) {
+    align-items: end;
+    font-size: x-large;
+}
+section:nth-child(2) {
+    align-items: start;
+    font-size: 2rem;
+}section:nth-child(3) {
+    align-items: center;
+    font-size: large;
+}
+.info-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #7091F5;
+    border-radius: 4px;
+    padding: 3%;
+    align-items: center;
+    width: min-content;
+    
+}
+a {
+    text-decoration: none;
+    background-color: orange;
+    color: black;
+    padding: .75rem 1.5rem;
+    border-radius: 2px;
+    margin: .25rem .75rem;
+    transition: all, .2s;
+}
+a:hover {
+    background: #FFFD8C;
+}
+ul {
+    margin: 0;
+}
